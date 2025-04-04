@@ -10,12 +10,12 @@ Chef Claude uses the 'minxtarl-8x7b' model via Hugging Face to create delicious 
 ---
 
 ## Table of Contents
--[Features](#features)
--[Demo](#demo)
--[Tech Stack](#tech-stack)
--[Installation](#installation)
--[Usage](#usage)
--[FAQs](#faqs)
+- [Features](#features)
+- [Demo](#demo)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [FAQs](#faqs)
 
 ---
 
