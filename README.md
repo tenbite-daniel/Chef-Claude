@@ -1,6 +1,6 @@
 # Chef Claude
 
-![React](https://img.shields.io/badge/React-18-blue.svg)
+![React](https://img.shields.io/badge/React-19-blue.svg)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-API-orange)
 ![Vite](https://img.shields.io/badge/Vite-4.0-blueviolet)
 
@@ -30,12 +30,18 @@ Chef Claude uses the 'minxtarl-8x7b' model via Hugging Face to create delicious 
 
 See how Chef Claude works from start to finish:
 
-| Step | Description | Screenshot |
-|------|-------------|------------|
-| 1. Landing Page | The homepage where users can start by entering their ingredients. | ![Landing Page](./images/landing-page.png) |
-| 2. Adding Ingredients (4) | After adding at least 4 ingredients, the "Get Recipe" button becomes visible. | ![4 Added Ingredients](./images/get-recipe.png) |
-| 3. AI-generated Ingredients | After submitting the ingredients, the AI tells the user which ingredients to use and the exact amounts. | ![Ingredients List](./images/ingredient.png) |
-| 4. Recipe Instructions | The user can view the full recipe instructions after the recipe is generated. | ![Recipe Instructions](./images/instructions.png) |
+1. Landing Page:
+ The homepage where users can start by entering their ingredients.
+ ![Landing Page](./images/landing-page.png) 
+2. Adding Ingredients (4):
+After adding at least 4 ingredients, the "Get Recipe" button becomes visible.
+![4 Added Ingredients](./images/get-recipe.png) 
+3. AI-generated Ingredients:
+After submitting the ingredients, the AI tells the user which ingredients to use and the exact amounts.
+![Ingredients List](./images/ingredient.png) 
+4. Recipe Instructions:
+The user can view the full recipe instructions after the recipe is generated.
+![Recipe Instructions](./images/instructions.png) 
 ---
 
 ## Tech Stack 🛠️
