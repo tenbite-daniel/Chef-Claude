@@ -10,15 +10,15 @@ Chef Claude uses the 'minxtarl-8x7b' model via Hugging Face to create delicious 
 ---
 
 ## Table of Contents
-- [Features](#features)
-- [Demo](#demo)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [FAQs](#faqs)
+- [Features](#features-)
+- [Demo](#demo-)
+- [Tech Stack](#tech-stack-)
+- [Installation](#installation-)
+- [Usage](#usage-)
+- [FAQs](#faqs-)
 
 ---
-
+<a name="features"></a>
 ## Features ✨
 - **AI Recipe Generation**: Input ingredients, get a tailored recipe.
 - **Simple Interface**: Clean React-based UI with responsive design.
@@ -26,6 +26,7 @@ Chef Claude uses the 'minxtarl-8x7b' model via Hugging Face to create delicious 
 - **Local Development**: Easy setup with npm and environment variables.
 
 ---
+<a name="demo"></a>
 ## Demo 📸
 
 See how Chef Claude works from start to finish:
@@ -43,13 +44,14 @@ After submitting the ingredients, the AI tells the user which ingredients to use
 The user can view the full recipe instructions after the recipe is generated.
 ![Recipe Instructions](./images/instructions.png) 
 ---
-
+<a name="tech-stack"></a>
 ## Tech Stack 🛠️
 - **Frontend**: React, JavaScript, HTML, CSS
 - **AI Model**: `mixtral-8x7b` via [Hugging Face](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1)
 - **Tools**: npm, Vite
 
 ---
+<a name="installation"></a>
 ## Installation ⚙️
 1. Clone the repository:
    ```bash
@@ -71,7 +73,7 @@ The user can view the full recipe instructions after the recipe is generated.
    npm run dev
    ```
 ---
-
+<a name="usage"></a>
 ## Usage 🥑
 1. Open the app in your browser by going to `http://localhost:5173` (or the port displayed in the terminal after running `npm run dev`).
 2. Enter each ingredient **separately** in the input field. For example, instead of typing "chicken, rice, garlic" all at once, enter "chicken", then click **Add Ingredient**, and repeat for the rest of your ingredients.
@@ -80,7 +82,7 @@ The user can view the full recipe instructions after the recipe is generated.
 4. Wait ~10-20 seconds for the AI to work its magic!
 
 ---
-
+<a name="faqs"></a>
 ## FAQs ❓
 ### Q: Where do I get the Hugging Face API key?
 A: Sign up at [Hugging Face](https://huggingface.co/), go to [Settings > Tokens](https://huggingface.co/settings/tokens), and create a token with **Inference API** access.
