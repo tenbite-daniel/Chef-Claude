@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect, useRef } from "react"
 import IngredientsList from "./IngredientsList"
 import ClaudeRecipe from "./ClaudeRecipe"
 import { getRecipeFromMistral } from "../ai";
@@ -8,7 +8,14 @@ export default function Main() {
     const [ingredients, setIngredients] = useState([]);
 
     const [recipe, setRecipe] = useState("");
+    
+    const recipeSection = useRef(null);
 
+    useEffect(() => {
+        if(recipe !== "" && recipeSection !== null){
+            recipeSection.current.scrollIntoView({behavior: "smooth"});
+        }
+    }, [recipe])
     function deleteIngredient(deleteIngredient) {
         const newIngredients = ingredients.filter(ingredient => {
             return ingredient !== deleteIngredient;
@@ -40,7 +47,12 @@ export default function Main() {
             </form>
 
             {ingredients.length > 0 &&
-                <IngredientsList ingredients={ingredients} getRecipe={getRecipe} deleteIngredient={deleteIngredient} />
+                <IngredientsList 
+                    ref={recipeSection}
+                    ingredients={ingredients} 
+                    getRecipe={getRecipe} 
+                    deleteIngredient={deleteIngredient} 
+                />
             }
 
             {recipe &&
